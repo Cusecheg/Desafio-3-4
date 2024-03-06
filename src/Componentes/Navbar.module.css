@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+.navbar li {
+    margin: 15px;
+}
+
+.navbar a {
+    color: aliceblue;
+}
+
+.navbar li:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+}

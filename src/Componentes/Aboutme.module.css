@@ -1,0 +1,62 @@
+
+.aboutme{
+    margin-top: 200px;
+}
+.aboutme h1 {
+    text-align: start;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerLineTime {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.years {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.lineTime {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 3px;
+
+}
+
+.node {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+
+.containerTextLineTime {
+    display: flex;
+    justify-content: center;
+}
+
+.textLineTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    text-align: justify;
+}
+
+.textLineTime div{
+    text-align: center;
+    width: 300px;
+}

@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer li {
+    display: flex;
+    margin: 10px;
+}
+
+.footer a {
+    color: white;
+
+}
+.footer p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 24px;
+}
+
+.footer a:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
