@@ -1,17 +1,18 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import Navbar from './Componentes/Navbar'
 import Presentation from './Componentes/Presentation'
 import Projects from './Componentes/Projects'
 import './App.css'
 import Aboutme from './Componentes/Aboutme'
 import Footer from './Componentes/Footer'
-
+import {motion} from 'framer-motion'                
 function App() {
 
   return (
-    <>
+    <motion.div
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 3 }}>
       <Navbar
         linkLinkedin='https://www.linkedin.com/in/juan-useche-79b395235/'
         linkGithub='https://github.com/Cusecheg' />
@@ -55,7 +56,7 @@ function App() {
         linkGithub='https://github.com/Cusecheg'
         linkInstagram='https://www.instagram.com/cusecheg_/'/>
       
-    </>
+      </motion.div>
   )
 }
 
